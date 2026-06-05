@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>The Topic | You are the product</title>
+    <meta name="description" content="Learn how Big Tech companies collect your personal data, why it matters, and how to replace Google, Meta, and Microsoft services with privacy-respecting open-source alternatives.">
+    <meta name="author" content="Dillon Goodchild-McCoy">
+
+    <link rel="canonical" href="topic.html">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+
+  <body>
+
+    <!-- =============================================
+         SITE HEADER & NAVIGATION
+         ============================================= -->
+    <header class="site-header">
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+
+      <div class="header-inner wrapper">
+        <a href="index.html" class="site-logo">
+          You are<span>the product</span>
+        </a>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="topic.html" aria-current="page">The Topic</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://www.privacyguides.org" target="_blank" rel="noopener noreferrer">Privacy Guides</a>
+        <a href="https://www.eff.org" target="_blank" rel="noopener noreferrer">EFF</a>
+      </nav>
+
+    </header>
+
+
+    <!-- =============================================
+         MAIN CONTENT
+         ============================================= -->
+    <main>
+
+      <div class="page-banner section">
+        <div class="wrapper wrapper--narrow">
+          <span class="tag">The Topic</span>
+          <h1>De-Googling &amp; Big Tech Data Collection</h1>
+          <p class="page-banner__intro">
+            Every app you open, every search you run, and every website you visit leaves a trail.
+            This page explains who is collecting that data, how they use it, and what you can
+            do to stop it.
+          </p>
+        </div>
+      </div>
+
+      <hr class="divider">
+
+
+      <!-- ─────────────────────────────────────────
+           SECTION 1: What is Data Collection?
+           ───────────────────────────────────────── -->
+      <section class="topic-section section" aria-labelledby="section1-heading">
+        <div class="wrapper">
+
+          <span class="tag">Section 1</span>
+          <h2 id="section1-heading">What is Big Tech Data Collection?</h2>
+
+          <p>
+            Data collection is the process of gathering information about your habits, preferences,
+            location, contacts, and behaviour; through the apps and services you use. Companies like
+            Google, Meta (Facebook), Microsoft, and Amazon have built entire business models around
+            collecting this data and selling targeted advertising based on it.
+          </p>
+
+          <p>
+            This isn't just a conspiracy theory. It is publicly documented in the terms of service
+            that almost nobody reads. When you agree to use Gmail, Google Search, Google Maps,
+            or YouTube, you are granting Google permission to collect and process enormous amounts
+            of personal information.
+          </p>
+
+          <div class="highlight-box">
+            <p>
+              <strong>Did you know?</strong> Google processes over 8.5 billion searches per day.
+              Every single one of those searches, when made while logged in or with cookies enabled
+              is tied to a profile built around you, including your age, location, interests,
+              income bracket, and purchasing habits.
+            </p>
+          </div>
+
+          <h3>What kinds of data are collected?</h3>
+
+          <ul class="tool-list" aria-label="Types of data collected">
+            <li class="tool-item">
+              <span class="tool-item__name">Location Data</span>
+              <p class="tool-item__desc">
+                Your GPS coordinates, home and work address, places you visit regularly,
+                and your travel patterns; even when location is "turned off" on some services.
+              </p>
+            </li>
+            <li class="tool-item">
+              <span class="tool-item__name">Search &amp; Browse History</span>
+              <p class="tool-item__desc">
+                Every query you search, every page you visit, and how long you spend
+                on each site is logged and analysed to build an interest profile.
+              </p>
+            </li>
+            <li class="tool-item">
+              <span class="tool-item__name">Communications</span>
+              <p class="tool-item__desc">
+                Email content, contact lists, and message metadata are scanned.
+                Gmail has famously scanned email content to serve personalised ads for years.
+              </p>
+            </li>
+            <li class="tool-item">
+              <span class="tool-item__name">Device &amp; App Usage</span>
+              <p class="tool-item__desc">
+                What apps you use, when you use them, what you buy, and how you interact
+                with your device, this all sent back to servers and stored indefinitely.
+              </p>
+            </li>
+            <li class="tool-item">
+              <span class="tool-item__name">Voice &amp; Audio</span>
+              <p class="tool-item__desc">
+                Smart assistants like Google Assistant and Alexa record audio clips
+                which are reviewed by human contractors to improve voice recognition.
+              </p>
+            </li>
+            <li class="tool-item">
+              <span class="tool-item__name">Financial Behaviour</span>
+              <p class="tool-item__desc">
+                Purchase history, price comparisons, and financial searches are
+                tracked to build a detailed picture of your economic situation.
+              </p>
+            </li>
+          </ul>
+
+        </div>
+      </section>
+
+      <hr class="divider">
+
+
+      <!-- ─────────────────────────────────────────
+           SECTION 2: Why It Matters
+           ───────────────────────────────────────── -->
+      <section class="topic-section section" aria-labelledby="section2-heading">
+        <div class="wrapper">
+
+          <span class="tag">Section 2</span>
+          <h2 id="section2-heading">Why Your Privacy Matters</h2>
+
+          <p>
+            A common response to privacy concerns is: <em>"I have nothing to hide."</em>
+            But privacy isn't about hiding wrongdoing it's about autonomy, dignity, and
+            control over your own life. You wouldn't hand a stranger your diary, your bank
+            statements, your bank details, and your location history. So why hand it all
+            to a corporation?
+          </p>
+
+          <h3>The real-world consequences</h3>
+
+          <p>
+            Data collected today doesn't disappear. It is stored, bought, sold, leaked,
+            and sometimes handed to governments. The consequences of mass surveillance and
+            data harvesting are already visible in the world:
+          </p>
+
+          <div class="highlight-box">
+            <p>
+              <strong>Targeted manipulation:</strong> The Cambridge Analytica scandal revealed
+              how data that was harvested from 87 million Facebook profiles was used to build psychological
+              profiles and deliver targeted political advertising designed to influence elections
+              in multiple countries including the United States and the United Kingdom.
+            </p>
+          </div>
+
+          <h3>The chilling effect</h3>
+
+          <p>
+            When people know they are being watched, they change their behaviour. They self-censor.
+            They avoid searching for topics that might look suspicious. They conform. This is called
+            the <strong>chilling effect</strong>, and it is a documented consequence of mass
+            surveillance that threatens free thought and free expression, even if you personally
+            never do anything wrong.
+          </p>
+
+          <h3>Data breaches are inevitable</h3>
+
+          <p>
+            No company has a perfect security record. The more data that is stored about you,
+            the more damage a breach can cause. Major breaches in recent years have exposed
+            the personal information of billions of people; including names, addresses,
+            passwords, and financial details to corporations around the world.
+          </p>
+
+        </div>
+      </section>
+
+      <hr class="divider">
+
+
+      <!-- ─────────────────────────────────────────
+           SECTION 3: What You Can Do — Alternatives
+           ───────────────────────────────────────── -->
+      <section class="topic-section section" aria-labelledby="section3-heading">
+        <div class="wrapper">
+
+          <span class="tag">Section 3</span>
+          <h2 id="section3-heading">Privacy-Respecting Alternatives</h2>
+
+          <p>
+            De-Googling doesn't have to happen overnight. Every single swap you make, even
+            just changing your search engine can reduce the amount of data being collected about
+            you. Here are the most impactful replacements, starting with the easiest.
+          </p>
+
+          <h3>Search Engines</h3>
+
+          <ul class="tool-list" aria-label="Alternative search engines">
+            <li class="tool-item">
+              <span class="tool-item__name">DuckDuckGo</span>
+              <p class="tool-item__desc">
+                The most popular private search engine. Does not track searches,
+                build profiles, or serve targeted ads. Easy drop-in replacement for Google Search.
+              </p>
+            </li>
+            <li class="tool-item">
+              <span class="tool-item__name">Brave Search</span>
+              <p class="tool-item__desc">
+                Independent search index not relying on Google or Bing. Built by the
+                same team behind the Brave browser. Strong privacy defaults out of the box.
+              </p>
+            </li>
+          </ul>
+
+          <h3>Web Browsers</h3>
+
+          <ul class="tool-list" aria-label="Alternative web browsers">
+            <li class="tool-item">
+              <span class="tool-item__name">Firefox</span>
+              <p class="tool-item__desc">
+                Open-source browser from Mozilla. Highly configurable with strong
+                privacy extensions available. A solid everyday choice.
+              </p>
+            </li>
+            <li class="tool-item">
+              <span class="tool-item__name">LibreWolf</span>
+              <p class="tool-item__desc">
+                A hardened Firefox fork with privacy settings pre-configured out of the box.
+                Strips telemetry and comes with uBlock Origin included by default.
+              </p>
+            </li>
+            <li class="tool-item">
+              <span class="tool-item__name">Brave Browser</span>
+              <p class="tool-item__desc">
+                Chromium-based browser with built-in ad blocking, tracker blocking,
+                and fingerprinting protection. Fast and beginner-friendly.
+              </p>
+            </li>
+          </ul>
+
+          <h3>Email</h3>
+
+          <ul class="tool-list" aria-label="Alternative email providers">
+            <li class="tool-item">
+              <span class="tool-item__name">ProtonMail</span>
+              <p class="tool-item__desc">
+                End-to-end encrypted email hosted in Switzerland. Free tier available.
+                Even Proton themselves cannot read your emails.
+              </p>
+            </li>
+            <li class="tool-item">
+              <span class="tool-item__name">Tutanota</span>
+              <p class="tool-item__desc">
+                Open-source encrypted email service based in Germany.
+                Strong privacy laws apply under German and EU legislation.
+              </p>
+            </li>
+          </ul>
+
+          <div class="highlight-box">
+            <p>
+              <strong>Where to go next:</strong> The <a href="https://www.privacyguides.org" target="_blank" rel="noopener noreferrer">Privacy Guides website</a>
+              maintains an up-to-date, community-vetted list of recommended tools across every
+              category — from password managers to operating systems. It is the best single
+              resource for anyone starting their privacy journey.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+
+    <!-- =============================================
+         SITE FOOTER
+         ============================================= -->
+    <footer class="site-footer">
+      <div class="wrapper">
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html">Home</a>
+          <a href="topic.html">The Topic</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <p class="footer-copy">
+          &copy; 2026 You are the product &mdash;
+        </p>
+
+      </div>
+    </footer>
+
+  </body>
+</html>
